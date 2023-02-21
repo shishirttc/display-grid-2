@@ -4,12 +4,20 @@
     box-sizing: border-box;
 }
 
-.container{
+body{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
     background-color: wheat;
+}
+
+.container{
+    
     display: grid;
     grid-template-columns: repeat(4, 120px);
     grid-template-rows: repeat(4,120px);
-    justify-content: center;
     padding: 80px 0;
     gap: 10px;
 }
